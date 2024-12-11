@@ -7,7 +7,7 @@
              <div class="row align-items-center">
                 <div class="col-xl-3">
                    <div class="header__logo">
-                      <a href="index.html"><img src="{{ asset('assets/img/logo/logo.png') }}" height="50" alt="logo"> UMKMBiz.</a>
+                      <a href="{{ route('index') }}"><img src="{{ asset('assets/img/logo/logo.png') }}" height="50" alt="logo"> UMKMBiz.</a>
                    </div>
                 </div>
                 <div class="col-xl-6">
@@ -15,16 +15,16 @@
                       <nav id="mobile-menu">
                          <ul>
                             <li class="has-homemenu">
-                               <a href="index.html">Home</a>
+                               <a href="{{ route('index') }}">Home</a>
                             </li>
                             <li class="has-megamenu" >
-                               <a href="course-grid.html">Shop</a>
+                               <a href="{{ route('shop') }}">Shop</a>
                             </li>
                             <li class="">
-                               <a href="blog.html">Blog</a>
+                               <a href="{{ route('blog') }}">Blog</a>
                             </li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="{{ route('aboutUs') }}">About Us</a></li>
+                            <li><a href="{{ route('contactUs') }}">Contact Us</a></li>
                          </ul>
                       </nav>
                    </div>

@@ -21,14 +21,11 @@
         <div class="col-lg-6 col-md-6 col-sm-5 order-1 order-sm-2 order-xs-2">
             <div class="tphero__thumb tphero__pt p-relative pt-80">
             <div class="pera2 ">
-                <img data-depth="1" src="https://html.hixstudio.net/orfarm/assets/img/shape/coca1.png" alt="coca-shape-1">
+                <img data-depth="1" src="{{ asset('assets/img/shape/afasfas.png') }}" height="500" alt="coca-shape-1">
             </div>
             <div class="tphero__thumb-shape  d-none d-md-block">
                 <div class="tphero__thumb-shape-one pera3 tphero__thumb-img">
-                    <img data-depth="2.4" src="https://html.hixstudio.net/orfarm/assets/img/shape/coca2.png" alt="coca-shape-2">
-                </div>
-                <div class="tphero__thumb-shape-three pera4 tphero__thumb-img  d-none d-xxl-block">
-                    <img data-depth="1.3" src="https://html.hixstudio.net/orfarm/assets/img/shape/fruits-2.png" alt="coca-shape-2">
+                    <img data-depth="2.4" src="{{ asset('assets/img/shape/afasfas.png') }}" alt="coca-shape-2">
                 </div>
                 <div class="tphero__thumb-shape-four pera5 tphero__thumb-img  d-none d-md-block">
                     <img data-depth="5" src="https://html.hixstudio.net/orfarm/assets/img/shape/tree-leaf-7.png" alt="coca-shape-2">

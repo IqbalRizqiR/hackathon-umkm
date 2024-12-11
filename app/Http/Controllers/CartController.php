@@ -49,7 +49,7 @@ class CartController extends Controller
 
         $items = $cart->items()->with('product')->get();
 
-        return view('cart', compact('items'));
+        return view('pages.user.cart', compact('items'));
     }
 
     public function removeFromCart(Request $request)
